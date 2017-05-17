@@ -1222,7 +1222,7 @@ a.linkedin:hover{
 
 .about_user_bot .col{
 	padding: 70px;
-	text-align: right;
+	text-align: left;
 	position:relative;
 	margin-right: auto;
 	margin-left: auto;
@@ -1275,7 +1275,7 @@ a.linkedin:hover{
 }
 
 .skills .skill .bar{
-	width: 80%;
+	width: 100%;
 	position: relative;
 	height: 2px;
 	background: #ededed;
