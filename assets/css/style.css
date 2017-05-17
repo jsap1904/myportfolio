@@ -1451,141 +1451,7 @@ a.linkedin:hover{
 	margin-right: 10px;
 }
 
-/* testimonials */
 
-.parallax_item.testimonials{
-	background-image: url('../img/testimonials.jpg');
-	display: block;
-}
-
-.parallax_item.testimonials .owl-item{
-	z-index: 55;
-}
-
-.parallax_item.testimonials .parallax_content{
-	display: block;
-	vertical-align: inherit;
-}
-
-.parallax_item.testimonials .testimonials_slider .item{
-	overflow: hidden;
-	margin-bottom: 15px;
-}
-
-.parallax_item.testimonials .testimonials_slider .item .quote_box{
-	color: #ffffff;
-	position: relative;
-}
-
-.parallax_item.testimonials .testimonials_slider .item img{
-	display: inline-block;
-	width: auto;
-	border-radius: 100%;
-	margin: 0 auto;
-    margin-bottom: 30px;
-}
-
-.parallax_item.testimonials .testimonials_slider .item .text{
-	font-size: 20px;
-	line-height: 35px;
-	margin-bottom: 20px;
-	padding: 0;
-}
-
-.parallax_item.testimonials .testimonials_slider .item .name{
-	font-size: 14px;
-	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
-	position: relative;
-	padding-top: 20px;
-}
-
-.parallax_item.testimonials .testimonials_slider .item .name:before{
-	position: absolute;
-	top: 0;
-	left: calc(50% - 15px);
-	width: 30px;
-	height: 1px;
-	background: rgba(255,255,255,0.25);
-	content: '';
-}
-
-.parallax_item.testimonials .testimonials_slider .item .position{
-	font-size: 10px;
-}
-
-.parallax_item.testimonials .testimonials_slider .item .name,
-.parallax_item.testimonials .testimonials_slider .item .position{
-	letter-spacing: 2px;
-}
-
-.parallax_item .owl-controls .owl-dot span{
-	border:1px solid #ffffff;
-}
-
-/* owl carousel nav */
-.slideshow_items .owl-controls .owl-nav{
-	font-size: 0;
-	padding: 0;
-	margin: 0;
-}
-.slideshow_items .owl-controls .owl-nav .owl-prev,
-.slideshow_items .owl-controls .owl-nav .owl-next{
-	padding: 0;
-	margin: 0;
-}
-
-.slideshow_items .owl-controls .owl-nav .owl-prev i{
-	left: 0;
-}
-
-.slideshow_items .owl-controls .owl-nav .owl-next i{
-	right: 0;
-}
-
-.slideshow_items .owl-controls .owl-nav .owl-prev i,
-.slideshow_items .owl-controls .owl-nav .owl-next i{
-	display: inline-block;
-	font-size: 50px;
-	height: 60px;
-	width: 60px;
-	line-height: 60px;
-	color: #ffffff;
-	background: transparent;
-	overflow: hidden;
-	position: absolute;
-	margin: 0;
-	top: 0;
-	z-index: 99;
-	border:1px solid #ffffff;
-	border-radius: 50%;
-	opacity: 0.8;
-	-webkit-transform: translateY(50%);
-	-ms-transform: translateY(50%);
-	transform: translateY(50%);
-}
-
-.slideshow_items .owl-controls .owl-nav .owl-prev:hover i,
-.slideshow_items .owl-controls .owl-nav .owl-next:hover i{
-	opacity: 1;
-}
-
-.slideshow_items .owl-controls .owl-dots{
-	margin-top: 20px;
-}
-
-.slideshow_items .owl-controls .owl-dots .owl-dot.active span{
-	background: #ffffff;
-}
-
-.slideshow_items .owl-controls .owl-dots .owl-dot span{
-	border:1px solid #ffffff;
-	background: transparent;
-}
-
-.slideshow_items .owl-controls{
-	margin: 0;
-}
 
 /*
 ===============================================
@@ -1685,12 +1551,12 @@ a.linkedin:hover{
 
 /*
 ===============================================
-			8. Some Stats Section
+			Skills section
 ===============================================
 */
 
 .some_stats_section{
-	text-align: center;
+	text-align: left;
 	background: #f9f9f9;
 	padding: 80px 15px;
 }
