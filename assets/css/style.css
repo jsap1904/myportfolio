@@ -802,9 +802,9 @@ a.linkedin:hover{
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
     background-position: 0 0;
-    background-size: cover !important;
+    background-size: initial; !important;
     position: relative;
-	background-image: url(../img/fullscreen_image.jpg);
+	background-image: url(../img/fullscreen_image.png);
 }
 
 .home_fullscreen_image.no_parallax{
